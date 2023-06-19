@@ -1,0 +1,10 @@
+﻿gambar0;Planet tersebut dinamakan;mars;bumi;jupiter;neptunus;neptunus;
+gambar1;Lintasan tersebut dinamakan;orbit;satelit;asteroid;revolusi;orbit;
+gambar2;Alat tersebut dinamakan;Lup;Teleskop;Kamera;Mikroskop;Teleskop;
+gambar3;Penemu hukum gravitasi;Isaac Newton;Andre Marie Ampere;Leonardo da Vinci;Galileo Galilei;Isaac Newton;
+gambar4;Pencetus Faham heliosentris;Galileo Galilei;Ptolemaeus;Nicolaus Copernicus;Aristoteles;Nicolaus Copernicus;
+gambar5;Ilmuwan tersebut mengemukakan;Big Bang Theory;Oscillating Theory;Nebulae Theory;Planetesimal Theory;Big Bang Theory;
+gambar6;Planet satu-satunya yang memiliki air di permukaannya;Merkurius;Venus;Bumi;Mars;Bumi;
+gambar7;Planet keenam dari matahari;Jupiter;Saturnus;Uranus;Neptunus;Saturnus;
+gambar8;Planet yang dikenal dengan istilah bintang timur;Merkurius;Venus;Bumi;Mars;Venus;
+gambar9;Benda langit yang mengiringi planet;Satelit;Asteroid;Meteoroid;Bintang;Satelit;

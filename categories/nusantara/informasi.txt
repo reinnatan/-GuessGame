@@ -1,0 +1,10 @@
+gambar0;Indonesia terdiri dari beberapa provinsi, saat ini provinsi diIndonesia berjumlah;34;42;35;38;38;
+gambar1;Gambar diatas merupakan Suku Indonesia yaitu;Suku Batak;Suku Padang;Suku Badui;Suku Dani;Suku Batak;
+gambar2;Sebuah pulau di Indonesia yang berbentuk seperti huruf K, yaitu pulau;NTT;Sulawesi;Kalimantan;Bali;Sulawesi;
+gambar3;Tarian ini sudah dikenal berbagai mancanegara karena keunikannya, tarian ini bernama;Tari Kecak;Tari Tor-Tor;Tari Piring;Tari Andun;Tari Kecak;
+gambar4;Gambar diatas merupakan salah satu dari keajaiban alam, namanya Candi Borobudur terletak di;Yogyakarta;Bogor;Semarang;Magelang;Magelang;
+gambar5;Rendang, berasal dari daerah yang ada diIndonesia yaitu;Medan;Minangkabau;Purwokerto;Cirebon;Minangkabau;
+gambar6;Hewan ini merupakan hewan endemik yang hanya ada diIndonesia, habitatnya berada dipulau;Bali;Kalimantan Selatan;NTT;Sulawesi Utara;NTT;
+gambar7;Alat musik ini berasal dari daerah;Jawa Barat;Kalimantan Barat;Sumatra Utara;Jawa Timur;Jawa Barat;
+gambar8;Senjata tradisional ini berasal dari pulau Kalimantan, senjata ini adalah;Keris;Tombak Mata;Piso Gaja Dompak;Mandau;Mandau;
+gambar9;Salah satu kain yang sangat terkenal bahkan telah diakui UNESCO sebagai warisan asli Indonesia, kain tersebut bernama;Batik;Songket;Ulos;Tenun Lombok;Batik;

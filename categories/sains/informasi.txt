@@ -1,0 +1,10 @@
+gambar0;Gambar diatas merupakan gambar dari sebuah;Unsur;Oksigen;Atom;Sebutir pasir;atom;
+gambar1;Benda yang sering digunakan dalam sebuah penelitian kimia;Tabung Reaksi;Labu Didih;Gelas Kaca;Labu Erlenmeyer;Labu Erlenmeyer;
+gambar2;Rumus kimia dari elemen tersebut;CO2;H2O;K;Fr;H2O;
+gambar3;Benda yang sering digunakan untuk mengukur menguji suatu zat yang bersifat asam atau basa;Kertas Warna;Garis Crayon;Kertas Lakmus;Kertas Lavoisier;Kertas Lakmus;
+gambar4;Gambar diatas merupakan susunan unsur-unsur kimia berdasakan nomor atomnya, yang dikenal sebagai;Tabel Periodik;Papan Unsur;Papan Senyawa;Tabel Neilson;Tabel Periodik;
+gambar5;Kejadian ini terjadi khususnya pada benda logam, peristiwa ini disebut;Mutualisme;Korosi;Ekspansi;Erosi;Korosi;
+gambar6;Tokoh penemu yang sangat terkenal didunia,penemuan yang Ia dapatkan adalah Telepon;William Greener;Michael Faraday;Alexander Graham Bell;Antonio De W.;Alexander Graham Bell;
+gambar7;Alat yang digunakan dalam sebuah penelitian Kimia, berfungsi sebagai wadah untuk bahan kimia padat;Kaca bening;Kaca Arloji;Mangkok lingkar;Cawan Kaca;Kaca Arloji;
+gambar8;Tokoh yang dikenal sebagai bapak Komputer dunia;Rudolf Diesel;James Watt;James T Russel;Charles Babbage;Charles Babbage;
+gambar9;Berapa banyak kromosom DNA yang ada pada manusia;46;52;38;42;46;
