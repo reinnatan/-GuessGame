@@ -23,8 +23,8 @@ class QuestPage(BaseForm):
                 answ_btn.append(splite_word[3])
                 answ_btn.append(splite_word[4])
                 answ_btn.append(splite_word[5])
-                answ_btn.append(splite_word[6])
                 question["answer_option"] = answ_btn
+                question["correct_answer"] =  splite_word[6]
                 
                 self.questions.append(question)
                 #print("Line "+str(count_questions)+" : "+line.rstrip())
@@ -54,11 +54,11 @@ class QuestPage(BaseForm):
 
         #setup button position of answer user
         start_x = 0 
-        for i in range(5):
+        for i in range(4):
             button = Button(self)
             button.configure(text=self.questions[0]["answer_option"][i])
-            button.place(x=start_x+15, y=self.width*0.63, width=130, height=40)
-            start_x = (130*(i+1)) +((i+1)*5)
+            button.place(x=start_x+20, y=self.width*0.63, width=160, height=40)
+            start_x = (160*(i+1)) +((i+1)*5)
 
 
 
