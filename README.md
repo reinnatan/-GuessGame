@@ -1,1 +1,4 @@
-# -GuessGame
+# GuessGame
+ - Tech Stack
+    - Python
+    - Tkinter
