@@ -53,7 +53,7 @@ class QuestPage(BaseForm):
         container_button = Label(self)
         container_button["bg"] = "#eadebc"
         container_button.place(x=0, y=self.width*0.60, width=self.width, height=self.width-(self.width*0.60))
-
+        self.container_button = container_button
 
         #setup button position of answer user
         start_x = 0 
@@ -78,15 +78,15 @@ class QuestPage(BaseForm):
     def check_answer(self, button_answer):
         answer_player = button_answer.cget('text')
         correct_answer = self.questions[self.current_answer]["correct_answer"]
-        print("answer user "+ answer_player)
-        print("correct answer "+correct_answer)
+        #print("answer user "+ answer_player)
+        #print("correct answer "+correct_answer)
 
         if answer_player == correct_answer:
             self.total_correct_answer += 1
-            print("Correct....")
+            #print("Correct....")
         else:
             self.total_wrong_answer +=1
-            print("Wrong.....")
+            #print("Wrong.....")
     
     def next_question(self):
         if self.current_answer<self.count_questions:
@@ -101,5 +101,40 @@ class QuestPage(BaseForm):
 
             for i in range(4):
                 self.list_button_answer[i].configure(text=self.questions[idx_question]["answer_option"][i])            
+        else:
+            self.disable_component() 
 
+    def disable_component(self):
+        self.image_question.place_forget()
+        self.desc_question.place_forget()
+        self.container_button.place_forget()
+        for i in range(4):
+            self.list_button_answer[i].place_forget()
+        
+        #define winner label
+        win_label = Label(self)
+        win_label.place(x=0.10*self.width, y=0.20*self.height, width=600, height=50)
+        win_label.config(text="Your correct answer "+str(self.total_correct_answer)+" answers from "+str(self.count_questions))        
+        self.win_label = win_label
 
+        button_main = Button(self)
+        button_main.place(x=0.10*self.width, y=0.20*self.height+70, width=600, height=50)
+        button_main.config(text="Play Again !!!")        
+        button_main["command"] = lambda select_button = button_main : self.play_again(select_button)
+
+        quit_button = Button(self)
+        quit_button.place(x=0.10*self.width, y=0.20*self.height+140, width=600, height=50)
+        quit_button.config(text="Quit")        
+        quit_button["command"] = lambda quit_button = quit_button : self.quit_game(quit_button)
+
+    def play_again(self, button):
+        self.destroy()
+        from main import Main
+        main = Main()    
+        main.tkraise()
+
+    def quit_game(self, button):
+        self.destroy()
+        from login import LoginPage
+        login = LoginPage()
+        login.tkraise()
