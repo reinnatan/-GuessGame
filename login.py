@@ -6,15 +6,20 @@ from PIL import Image, ImageTk
 
 class LoginPage(BaseForm):
     def validateLogin(self, username, password):
-        print("username entered :", username.get())
-        print("password entered :", password.get())
+        if (username.get()=="test" and password.get()=="test"):
+            self.destroy()
+            from main import Main
+            main = Main()
+            main.tkraise()
+        #print("username entered :", username.get())
+        #print("password entered :", password.get())
 
     def gotoRegister(self):
         print("register called")
         loginPage.destroy()
-        from main import Main
-        main = Main()
-        main.tkraise()
+        from register import RegisterPage
+        registerPage = RegisterPage()
+        registerPage.tkraise()
     
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
