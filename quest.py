@@ -64,15 +64,15 @@ class QuestPage(BaseForm):
             button_answer.configure(text=self.questions[0]["answer_option"][i])
             button_answer.place(x=start_x+20, y=self.width*0.63, width=160, height=40)
             start_x = (160*(i+1)) +((i+1)*5)
-            button_answer["command"] = lambda : self.answer_question(button_answer)
+            button_answer["command"] = lambda selected_button = button_answer : self.answer_question(selected_button)
             list_button_answer.append(button_answer)
 
         self.list_button_answer = list_button_answer
 
-    def answer_question(self, button_answer):
+    def answer_question(self, button_selected):
         #print("answer question is "+self.list_button_answer[self.current_answer].cget('text'))
-        self.check_answer(button_answer)
-        self.current_answer=+1
+        self.check_answer(button_selected)
+        self.current_answer=self.current_answer+1
         self.next_question()
 
     def check_answer(self, button_answer):
