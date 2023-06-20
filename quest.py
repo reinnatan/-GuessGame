@@ -97,6 +97,7 @@ class QuestPage(BaseForm):
             resized_image = image.resize((600, 300), Image.ANTIALIAS)
             tk_image = ImageTk.PhotoImage(resized_image)
             self.image_question.configure(image=tk_image)
+            self.image_question.image = tk_image
 
             for i in range(4):
                 self.list_button_answer[i].configure(text=self.questions[idx_question]["answer_option"][i])            
