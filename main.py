@@ -45,6 +45,6 @@ class Main(BaseForm):
         exitMain.place(x=self.width*0.35, y=(self.height*0.25)+70, height=30, width=117*2)
 
 
-if __name__ == "__main__":
-    loginPage = Main()
-    loginPage.mainloop()
+#if __name__ == "__main__":
+#    loginPage = Main()
+#    loginPage.mainloop()
