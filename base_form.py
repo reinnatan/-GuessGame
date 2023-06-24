@@ -6,7 +6,11 @@ from tkinter import Button, Entry, Label, StringVar
 class BaseForm(tk.Tk):
     def __init__(self, *args, **kwargs):
         tk.Tk.__init__(self, *args, **kwargs)
-        
+
+        ico = Image.open('background/guess.ico')
+        photo = ImageTk.PhotoImage(ico)
+        self.wm_iconphoto(False, photo)
+
         width = 700
         height = 500
 

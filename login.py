@@ -3,6 +3,7 @@ import tkinter as tk
 from tkinter import Button, Entry, Label, StringVar
 from base_form import BaseForm
 from PIL import Image, ImageTk
+from tkinter import messagebox
 
 class LoginPage(BaseForm):
     def validateLogin(self, username, password):
@@ -11,6 +12,8 @@ class LoginPage(BaseForm):
             from main import Main
             main = Main()
             main.tkraise()
+        else:
+            messagebox.showerror("Failed login", "please check username and passwor")
         #print("username entered :", username.get())
         #print("password entered :", password.get())
 
