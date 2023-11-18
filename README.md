@@ -5,5 +5,5 @@
 # sample login username and password
    - username : test
    - password : test
-# screenshoot game
+# demo game
 ![screenshoot](screenshoot/quiz_gamemp4.gif)
